@@ -9,7 +9,7 @@ st.set_page_config(page_title="Customer Churn Predictor")
 
 st.title("📊 Customer Churn Prediction System")
 st.write("Predict telecom customer churn risk using Machine Learning")
-
+st.write("VERSION 2")
 # User Inputs
 tenure = st.number_input("Tenure (Months)", min_value=0, max_value=72, value=12)
 
